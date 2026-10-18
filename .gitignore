@@ -1,0 +1,16 @@
+# Python virtual environment
+classificationenv/
+env/
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model artifacts (> 100MB exceeds GitHub push limits)
+*.pkl
+
+# OS files
+.DS_Store
